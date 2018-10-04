@@ -1,0 +1,15 @@
+version: "3.3"
+services:
+  nginx:
+    restart: "always"
+    build:
+      dockerfile: "./Dockerfile"
+      context: ./nginx
+    ports:
+      - "3050:8080"
+  api:
+    build:
+      dockerfile: "./Dockerfile"
+      context: ./
+    environment:
+      - NODE_ENV=production

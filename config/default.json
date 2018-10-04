@@ -1,0 +1,57 @@
+{
+  "name": "project app - development",
+  "LOGGING_DIR": "logs",
+  "MODE": "development",
+  "SEARCH_SERVICES_DEFAULT_LENGTH": 10,
+  "SERVER": {
+    "HOSTNAME": "127.0.0.1",
+    "LINK": "http://127.0.0.1:8080/",
+    "PORT": "8080"
+  },
+  "DB": {
+    "HOST": "",
+    "PORT": "",
+    "USER": "",
+    "PASSWORD": "",
+    "DATABASE": ""
+  },
+  "MAIL": {
+    "FROM": "",
+    "REPLYTO": ""
+  },
+  "GOOGLE": {
+    "projectId": ""
+  },
+  "AWS": {
+    "URL": "",
+    "accessKeyId": "",
+    "secretAccessKey": "",
+    "REGION": "",
+    "BUCKET": "",
+    "REPORTS": "",
+    "GET_REPORTS": "",
+    "USER_PATH": ""
+  },
+  "PAYPAL": {
+    "mode": "",
+    "secretKey": "",
+    "clientId": ""
+  },
+  "BRAINTREE": {
+    "environment": "",
+    "merchantId": "",
+    "publicKey": "",
+    "privateKey": ""
+  },
+  "STATUS_CODE": {
+    "BadRequest": 400,
+    "OK": 200,
+    "NoContent": 204,
+    "ServerError": 500,
+    "AuthenticationError": 401,
+    "AlreadyExists": 409,
+    "Created": 201,
+    "conflict": 409,
+    "NoAccess": 403
+  }
+}

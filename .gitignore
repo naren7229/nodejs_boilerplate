@@ -1,0 +1,11 @@
+node_modules/
+logs/*
+uploads/
+package-lock.json
+log/*
+
+# Editors and IDEs
+.vscode/*
+!.vscode/snippets
+!.vscode/launch.json
+!.vscode/settings.json

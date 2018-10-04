@@ -1,0 +1,43 @@
+/auth:
+  post:
+    description: User Login
+    tags:
+      - auth
+    produces:
+      - application/json
+    parameters:
+      - name: user_email
+        description: User email.
+        in: body
+        required: true
+        type: string
+      - name: user_password
+        description: User password.
+        in: body
+        required: true
+        type: string
+    responses:
+      200:
+        description: OK
+
+/:token:
+  get:
+    description: Login to the application
+    tags:
+      - auth
+    produces:
+      - application/json
+    parameters:
+      - name: user_email
+        description: User email.
+        in: body
+        required: true
+        type: string
+      - name: user_password
+        description: User password.
+        in: body
+        required: true
+        type: string
+    responses:
+      200:
+        description: OK
