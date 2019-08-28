@@ -14,3 +14,8 @@ ssh-keygen -t rsa -b 2048 -f jwtRS256.key
 openssl rsa -in jwtRS256.key -pubout -outform PEM -out jwtRS256.key.pub
 cat jwtRS256.key
 cat jwtRS256.key.pub
+
+
+//New
+openssl genrsa -out keypair.pem 2048
+openssl rsa -in keypair.pem -pubout -out publickey.crt
